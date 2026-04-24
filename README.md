@@ -1,130 +1,85 @@
-A CLI-based School Management System developed using Core Java, following Object-Oriented Programming (OOP) principles and file handling (serialization).
-This project demonstrates real-world application logic, role-based access, and persistent data storage without using any frameworks.
+# 🏫 School Management System  
+### 💻 Java-Based System | OOP + Real-World Logic
 
-📌 Features
-🔐 Role-Based Login
+<p align="center">
+  A structured school management system built using Java to manage students, teachers, and academic operations efficiently.
+</p>
 
-Admin Login (Username & Password)
+---
 
-Teacher Login (Teacher ID)
+## 📌 Overview
+The **School Management System** is a Java-based application designed to automate and manage school operations such as student records, teacher data, and academic processes.
 
-Student Login (Student ID)
+It replaces traditional manual systems with a **digital and structured solution**, improving efficiency and accuracy.
 
-👨‍💼 Admin
+---
 
-Add new students
+## 🎯 Problem Statement
+Manual school management:
+- ❌ Time-consuming  
+- ❌ Error-prone  
+- ❌ Difficult to manage records  
 
-Add new teachers
+👉 This system provides a **centralized digital solution** for managing school data.
 
-View all students
+---
 
-View all teachers
+## 💡 Features
 
-👨‍🏫 Teacher
+### 👨‍🎓 Student Management
+- Add student details  
+- View student records  
+- Manage academic information  
 
-Add marks for students (subject-wise)
+### 👩‍🏫 Teacher Management
+- Store teacher details  
+- Manage subject assignments  
 
-Mark student attendance
+### 📚 Academic Management
+- Course handling  
+- Class/subject management  
 
-👨‍🎓 Student
+### ⚙️ System Features
+- Organized data handling  
+- Modular design using OOP  
+- Efficient record management  
 
-View personal profile
+---
 
-View marks
+## 🛠️ Tech Stack
 
-View attendance
+- ☕ Java  
+- 🧠 Object-Oriented Programming (OOP)  
+- 💻 Console-based / Core Java  
 
-💾 Data Persistence
+---
 
-Uses Java Serialization
+## 🧠 System Design
 
-Student and Teacher data are stored in files
+The system is designed using core OOP principles:
 
-Data remains safe even after program restarts
+- 🔹 **Encapsulation** → Data security  
+- 🔹 **Abstraction** → Simplified operations  
+- 🔹 **Modularity** → Separate components  
+- 🔹 **Reusability** → Clean code structure  
 
-🛠️ Technologies Used
+---
 
-Core Java
+## ⚙️ How It Works
 
-Object-Oriented Programming (OOP)
+1. User interacts with system  
+2. Data is processed using Java classes  
+3. System performs operations  
+4. Results are displayed  
 
-Collections Framework (ArrayList, HashMap)
+---
 
-File Handling (Serialization)
+## 📁 Project Structure
 
-CLI (Command Line Interface)
 
-📁 Project Structure
-school-management-system/
+School-Management-System/
 │
-├── model/
-│   ├── Person.java
-│   ├── Student.java
-│   ├── Teacher.java
-│   ├── Subject.java
-│   ├── Admin.java
-│
-├── service/
-│   ├── SchoolService.java
-│
-├── util/
-│   ├── FileUtil.java
-│
-└── Main.java
+├── (Java Files) # Core logic (Student, Teacher, etc.)
+├── README.md
 
-🔑 Admin Credentials
-Username: admin
-Password: admin123
-
-▶️ How to Run the Project
-
-Clone the repository
-
-git clone <your-repo-url>
-
-
-Open the project in any Java IDE (IntelliJ / Eclipse / VS Code)
-
-Run Main.java
-
-Use the CLI menu to interact with the system
-
-🧠 OOP Concepts Used
-
-Abstraction → Person abstract class
-
-Inheritance → Student and Teacher extend Person
-
-Encapsulation → Private fields with controlled access
-
-Polymorphism → Method overriding (toString())
-
-🎯 Learning Outcomes
-
-Designed a real-world system using Core Java
-
-Implemented service-layer architecture
-
-Practiced file handling & data persistence
-
-Understood role-based authentication
-
-Improved problem-solving & design thinking
-
-🚀 Future Enhancements
-
-Password-based login for teachers & students
-
-Auto ID generation
-
-Subject management module
-
-Database integration (MySQL)
-
-Web version using Spring Boot
-
-📌 Author
-
-Rishabh Raj
-Computer Science Engineering Student
-Aspiring Software Developer
+## 📁 Project Structure
